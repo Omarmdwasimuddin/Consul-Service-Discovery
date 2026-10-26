@@ -33,6 +33,6 @@ code .
 
 ####
 ```bash
-
+npx nx g @nx/nest:app payment-service
 ```
 ---
