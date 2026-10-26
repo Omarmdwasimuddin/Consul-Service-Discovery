@@ -21,3 +21,18 @@ localhost:8500
 <img width="1542" height="849" alt="image" src="https://github.com/user-attachments/assets/c65d87b3-985c-42cd-a113-2ed7bf304920" />
 
 ---
+
+#### ager project open koro
+```bash
+cd wasuTech-gRPC
+```
+```bash
+code .
+```
+---
+
+####
+```bash
+
+```
+---
