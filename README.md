@@ -50,7 +50,7 @@ npm i consul
 ---
 
 #### `payment-service/src/main.ts` 
-```bash
+```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
 import Consul from 'consul';
