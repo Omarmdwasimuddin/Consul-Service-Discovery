@@ -42,3 +42,9 @@ npx nx g @nx/nest:app payment-service
 npx nx g @nx/nest:app checkout-service
 ```
 ---
+
+####
+```bash
+npm i consul
+```
+---
