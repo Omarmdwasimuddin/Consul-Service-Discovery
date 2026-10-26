@@ -36,3 +36,9 @@ code .
 npx nx g @nx/nest:app payment-service
 ```
 ---
+
+####
+```bash
+npx nx g @nx/nest:app checkout-service
+```
+---
