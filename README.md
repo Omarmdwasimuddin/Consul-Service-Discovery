@@ -7,3 +7,9 @@
 ip addr show docker0
 ```
 ---
+
+####
+```bash
+sudo docker run -d --name consule-server -p 8500:8500 --add-host=host.docker.internal:172.17.0.1 consul:1.15
+```
+---
