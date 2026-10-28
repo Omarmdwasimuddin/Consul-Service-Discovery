@@ -170,7 +170,7 @@ export class AppController {
 
 ####
 ```bash
-
+npx nx serve payment-service
 ```
 ---
 
