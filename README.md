@@ -52,7 +52,8 @@ npm i consul
 ```
 ---
 
-#### `payment-service/src/main.ts` 
+### 3. Payment Service
+#### main.ts (register with Consul)
 ```ts
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
@@ -96,7 +97,7 @@ bootstrap();
 ```
 ---
 
-#### `payment-service/src/app/app.controller.ts`
+#### app.controller.ts (health endpoint)
 ```ts
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -113,7 +114,8 @@ export class AppController {
 ```
 ---
 
-#### `checkout-service/src/app/app.service.ts`
+### 4. Checkout Service
+#### app.service.ts (service discovery)
 ```ts
 import { Injectable } from "@nestjs/common";
 import Consul from "consul";
@@ -149,7 +151,7 @@ export class AppService {
 ```
 ---
 
-#### `checkout-service/src/app/app.controller.ts`
+#### app.controller.ts
 ```ts
 import { Controller, Get } from '@nestjs/common';
 import { AppService } from './app.service';
@@ -167,7 +169,7 @@ export class AppController {
 ---
 
 
-####
+#### Run payment-service (via WSL)
 ```bash
 npx nx serve payment-service
 ```
@@ -201,11 +203,11 @@ curl http://localhost:3005/api/health
 
 ---
 
-####
+#### Run checkout-service
 ```bash
 npx nx serve checkout-service
 ```
-> browser e hit koro
+> Hit /api/checkout/process
 ```bash
 localhost:3000/api/checkout/process
 ```
