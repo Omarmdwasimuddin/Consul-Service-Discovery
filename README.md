@@ -9,7 +9,7 @@ ip addr show docker0
 ```
 ---
 
-#### 1. Start Consul Server
+### 1. Start Consul Server
 ```bash
 sudo docker run -d --name consule-server -p 8500:8500 --add-host=host.docker.internal:172.17.0.1 consul:1.15
 ```
@@ -27,7 +27,8 @@ sudo docker start consule-server
 ```
 ---
 
-#### ager project open koro
+### 2. Project Setup
+#### Open the project
 ```bash
 cd wasuTech-gRPC
 ```
@@ -36,19 +37,16 @@ code .
 ```
 ---
 
-####
+#### Generate payment-service and checkout-service
 ```bash
 npx nx g @nx/nest:app payment-service
 ```
----
-
-####
 ```bash
 npx nx g @nx/nest:app checkout-service
 ```
 ---
 
-####
+#### Install consul package
 ```bash
 npm i consul
 ```
