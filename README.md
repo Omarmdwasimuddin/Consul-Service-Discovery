@@ -184,4 +184,6 @@ npx nx serve checkout-service
 ```bash
 localhost:3000/api/checkout/process
 ```
+<img width="1358" height="394" alt="image" src="https://github.com/user-attachments/assets/52fb3b06-b48e-4156-80b2-9fa1666e69a4" />
+
 ---
