@@ -172,11 +172,6 @@ export class AppController {
 
 
 #### Run payment-service (via WSL)
-```bash
-npx nx serve payment-service
-```
-<img width="1358" height="852" alt="image" src="https://github.com/user-attachments/assets/ee7aba5b-8a2b-4757-9b8f-061e8c86ee70" />
-
 > amader payment-service ta ke run korte wsl diye run korte hobe jate error na ashe process niche deya
 > powershall open koro
 ```bash
@@ -201,7 +196,7 @@ npx nx serve payment-service
 ```bash
 curl http://localhost:3005/api/health
 ```
-<img width="1064" height="344" alt="image" src="https://github.com/user-attachments/assets/473b5966-0eed-4a44-83a8-b97967d47e69" />
+<img width="1358" height="852" alt="image" src="https://github.com/user-attachments/assets/ee7aba5b-8a2b-4757-9b8f-061e8c86ee70" />
 
 ---
 
