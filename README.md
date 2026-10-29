@@ -172,6 +172,8 @@ export class AppController {
 ```bash
 npx nx serve payment-service
 ```
+<img width="1358" height="852" alt="image" src="https://github.com/user-attachments/assets/ee7aba5b-8a2b-4757-9b8f-061e8c86ee70" />
+
 ---
 
 ####
