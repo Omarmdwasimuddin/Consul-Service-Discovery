@@ -70,6 +70,9 @@ async function bootstrap() {
    })
    
    const serviceId = 'payment-unique-id-1';
+
+   await app.listen(port, '0.0.0.0');
+
    const registrationDetails = {
     name: 'payment-service',
     address: 'host.docker.internal',
@@ -89,7 +92,6 @@ async function bootstrap() {
     process.exit();
    })
 
-   await app.listen(port);
    console.log(`Payment service is running on port ${port} and registered in Consul with ID: ${serviceId}`);
 }
 
