@@ -1,7 +1,7 @@
 ## Consul Service Discovery
 
-## Prerequisites
-### Install Docker on Ubuntu [Docker Installation on Ubuntu](https://github.com/Omarmdwasimuddin/Docker-Installation-on-Ubuntu)
+### Prerequisites
+#### Install Docker on Ubuntu [Docker Installation on Ubuntu](https://github.com/Omarmdwasimuddin/Docker-Installation-on-Ubuntu)
 
 #### 
 ```bash
