@@ -176,6 +176,10 @@ npx nx serve payment-service
 
 ####
 ```bash
-
+npx nx serve checkout-service
+```
+> browser e hit koro
+```bash
+localhost:3000/api/checkout/process
 ```
 ---
