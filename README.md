@@ -136,7 +136,7 @@ export class AppService {
     }
 
     const address = 'localhost';
-    const port = paymentInfo.port;
+    const port = paymentInfo.Port;
     const finalUrl = `http://${address}:${port}/api/health`
     console.log(`Discovery Succussfull calling ${finalUrl}`)
 
@@ -210,6 +210,7 @@ npx nx serve checkout-service
 ```bash
 localhost:3000/api/checkout/process
 ```
-<img width="1358" height="394" alt="image" src="https://github.com/user-attachments/assets/52fb3b06-b48e-4156-80b2-9fa1666e69a4" />
+<img width="467" height="402" alt="image" src="https://github.com/user-attachments/assets/7293b38e-f12f-429e-bb16-e846e0fcfcd5" />
+
 
 ---
