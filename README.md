@@ -1,8 +1,9 @@
-## Consul-Service-Discovery
+## Consul Service Discovery
 
-#### Complete koro---> [Docker Installation on Ubuntu](https://github.com/Omarmdwasimuddin/Docker-Installation-on-Ubuntu)
+## Prerequisites
+### Install Docker on Ubuntu [Docker Installation on Ubuntu](https://github.com/Omarmdwasimuddin/Docker-Installation-on-Ubuntu)
 
-####
+#### 
 ```bash
 ip addr show docker0
 ```
